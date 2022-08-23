@@ -10,21 +10,7 @@ using System.IO;
 namespace ServicoWindows
 {
     public class Program
-    {
-        //public static void Main(string[] args)
-        //{
-        //    CreateHostBuilder(args).Build().Run();
-        //}
-
-        //public static IHostBuilder CreateHostBuilder(string[] args) =>
-        //    Host.CreateDefaultBuilder(args)
-        //        .UseWindowsService()
-        //        .ConfigureServices((hostContext, services) =>
-        //        {
-        //            services.AddHostedService<Worker>();
-        //            services.AddSingleton<MailService>();
-        //        });
-
+    {       
         static async Task Main(string[] args)
         {
             // Acessa dados do appsettings.Development.json - Equivalente a injeção de depencia que tem por padrao no startup
