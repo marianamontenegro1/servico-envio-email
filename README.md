@@ -33,23 +33,23 @@ Para executar os comandos, é necessário abrir o CMD como administrador e naveg
 
 * **PUBLICAR**
 
-```dotnet publish --output {diretorio-do-exe}```
+```dotnet publish --output <<PathBin>>\<<Executavel>>```
 
 * **INSTALAR**
 
-```sc.exe create {nome-servico} binpath={diretorio-instalacao-servico}```
+```sc.exe create <<nomeServico>> binpath=<<PathBin>>\<<Executavel>>```
 
 * **INICIAR**
 
-```sc.exe start {nome-servico} ```
+```sc.exe start <<nomeServico>> ```
 
 * **PARAR**
 
-```sc.exe stop {nome-servico} ```
+```sc.exe stop <<nomeServico>> ```
 
 * **EXCLUIR**
 
-```sc.exe delete {nome-servico} ```
+```sc.exe delete <<nomeServico>> ```
 
 ____
 
