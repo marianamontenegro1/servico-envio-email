@@ -51,6 +51,7 @@ Para executar os comandos, é necessário abrir o CMD como administrador e naveg
 
 ```sc.exe delete <<nomeServico>> ```
 
+Após a instalação e iniciar o serviço, você pode verificar a execução no Serviço do Windows.
 ____
 
 ### Fonte de pesquisa:
