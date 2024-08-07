@@ -28,12 +28,12 @@ As configurações básicas para envio do email foram feitas no _appsettings.Dev
 
 No meu projeto usei email do outlook, portanto configurei o host para _smtp-mail.outlook.com_. Caso queira usar Gmail o host deverá alterar a configuração para _smtp.gmail.com_
 
-## Comandos básicos para gerênciar o serviço
+## Comandos básicos para gerenciar o serviço
 Para executar os comandos, é necessário abrir o CMD como administrador e navegar até o diretório onde está seu projeto.
 
 * **PUBLICAR**
 
-```dotnet publish --output <<PathBin>>\<<Executavel>>```
+```dotnet publish --output <<PathBin>>```
 
 * **INSTALAR**
 
